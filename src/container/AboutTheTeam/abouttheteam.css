@@ -1,0 +1,81 @@
+.about__Team {
+    flex-direction: column;
+    background-color: var(--color-black);
+    text-align: center;
+}
+
+.about__Team-chef {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin-top: 4rem;
+}
+
+.about__Team-chef_item {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 350px;
+    margin: 2rem;
+}
+
+.about__Team-chef_item img {
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.about__Team-chef_item:hover img{
+    opacity: .35;
+}
+
+.chef {
+    position: relative;
+}
+
+.about__Team-chef_item-icons {
+    position: absolute;
+    display: flex;
+    width: inherit;
+    justify-content: center;
+    inset: 0;
+}
+
+.about__Team-chef_item:hover .chef_icons {
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.chef_icons {
+    color: white;
+    opacity: 0;
+    font-size: 2rem;
+    margin: 100% 7.5px;
+    cursor: pointer;
+}
+
+.chef_icons:hover {
+    color: var(--color-golden);
+}
+
+.about__Team-chef_item h4 {
+    font-size: 2rem;
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    line-height: 3rem;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 425px) {
+    * {
+        font-size: 12px;
+    }
+
+    .about__Team-chef_item {
+        width: 250px;
+    }
+}

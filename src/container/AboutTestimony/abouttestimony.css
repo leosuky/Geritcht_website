@@ -1,0 +1,15 @@
+.about__testimony {
+    flex-direction: column;
+    background-color: var(--color-black);
+    text-align: center;
+}
+
+.about__testimony-testimonies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin-top: 4rem;
+}

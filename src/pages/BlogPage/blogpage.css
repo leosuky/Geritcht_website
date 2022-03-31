@@ -1,0 +1,10 @@
+.blog_item {
+    margin: 5rem;
+}
+
+
+@media screen and (max-width: 425px) {
+    .blog_item {
+        margin: 2rem;
+    }
+} 

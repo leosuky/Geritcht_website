@@ -1,0 +1,11 @@
+.contact_map {
+    flex-direction: column;
+    background-color: var(--color-black);
+    text-align: center;
+}
+
+.contact_map > iframe {
+    width:85vw;
+    height:50vh;
+    border: 3px solid var(--color-golden);
+}

@@ -1,0 +1,13 @@
+.about__happyhours {
+    flex-direction: column;
+    background-color: var(--color-black);
+    text-align: center;
+}
+
+.about__happyhours-text {
+    max-width: 60vw;
+}
+
+.about__happyhours > * {
+    margin-bottom: 1.5rem;
+}
