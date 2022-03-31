@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Gericht Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Translated a Figma design into a fully fuctioning stateless website with React JS and CSS. 
+- I did NOT design this website. Its a free template by [IQONICDESIGN](https://iqonic.design/) 
+- The design file can be found [here](https://ui8.net/iqonicdesign/products/gericht-restaurant-website-ui-in-figma)
 
 ## Available Scripts
 
